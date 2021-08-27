@@ -193,7 +193,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
 
   // the better user's score the the rank will be closer to zero so
   // subtracting 100 to get the progress in 100%
-  const progress = 100 - rank.score;
+  const progress = 100; // FIX LATER - rank.score;
   const cssStyles = getStyles({
     titleColor,
     textColor,
